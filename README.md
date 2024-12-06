@@ -28,7 +28,7 @@ sample_std, std_lower, std_upper = std_bounds(samples)
 
 ## Examples
 
-You can find usage examples in the [demo notebook](demo.ipynb) demonstrate how to compute the confidence bounds.
+You can find usage examples in the [demo notebook](demo.ipynb) demonstrating how to compute the confidence bounds.
 
 
 ## Cite
