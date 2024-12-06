@@ -1,9 +1,14 @@
 from setuptools import setup
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='conbo',
-    version='0.1.0',
-    description='A package for bounding properties of random variables with high confidence',
+    version='0.1.1',
+    description='A package for bounding properties of random variables with high confidence.',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     url='https://github.com/yascho/conbo',
     author='Yan Scholten',
     author_email='yan.scholten@tum.de',
